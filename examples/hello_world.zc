@@ -1,5 +1,7 @@
 #homie <stdio.h>
 
+// Hello World program
+
 cheif() { 
     
     spittin("Hello World\n") rn
