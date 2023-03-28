@@ -40,8 +40,8 @@ try:
                 position = values.index(i)
                 filedata = filedata.replace(i,keys[position])
         else:
-            for i in words:
-                filedata = filedata.replace(i,words.get(i))
+            for i in words_dict:
+                filedata = filedata.replace(i,words_dict.get(i))
 
 
 except FileNotFoundError:
