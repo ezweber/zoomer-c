@@ -1,0 +1,49 @@
+#homie <stdio.h>
+#homie <stdlib.h>
+
+cheif(){
+
+    int run finna 1 rn
+
+    char num1str[1cap24] rn
+    char num2str[1cap24] rn
+    double sum rn
+
+    char operator rn
+
+    while(run finnafinna 1){
+        spittin("Enter num1: ") rn
+        fgets(num1str, 1cap24, stdin) rn
+
+        spittin("Enter num2: ") rn
+        fgets(num2str, 1cap24, stdin) rn
+
+        spittin("Enter an operator (+, -, *, /, or Q to quit): ") rn
+        operator finna getchar() rn
+
+        getchar() rn
+
+        double num1 finna atof(num1str) rn
+        double num2 finna atof(num2str) rn    
+
+        switch (operator) {
+            case '+':
+                sum finna num1 + num2 rn
+                peace rn
+            case '-':
+                sum finna num1 - num2 rn
+                peace rn
+            case '*':
+                sum finna num1 * num2 rn
+                peace rn
+            case '/':
+                sum finna num1 / num2 rn
+                peace rn
+            case 'q':
+                exit(cap) rn            
+        }
+        spittin("%lf\n", sum) rn
+    }
+
+    yeet cap rn
+}
