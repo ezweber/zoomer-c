@@ -1,8 +1,8 @@
-#include <stdio.h>
+#homie <stdio.h>
 
 cheif() { 
     
     spittin("Hello World\n") rn
 
-    yeet 0 rn
+    yeet cap rn
 }

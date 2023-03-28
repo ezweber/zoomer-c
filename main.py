@@ -13,14 +13,27 @@ words = {
 " rn": ";",
 "no": "!",
 "cap": "0",
-"spittin": "printf"
+"spittin": "printf",
+"finna": "=",
+"on god": "==",
+"deadass": "continue",
+"aint": "!=",
+"fo": "for",
+"cappin": "false",
+"real": "true",
+"peace": "break",
+"homie": "include"
         }
 
-with open(args.input_file,'r') as file:
-    filedata = file.read()
-
-    for i in words:
-        filedata = filedata.replace(i,words.get(i))
+try:
+    with open(args.input_file,'r') as file:
+        filedata = file.read()
+    
+        for i in words:
+            filedata = filedata.replace(i,words.get(i))
+except FileNotFoundError:
+    print(f"Shit is not bussin fr, {args.input_file} deadass gone.")
+    quit()
 
 with open(args.output_file,'w') as file:
     file.write(filedata)
